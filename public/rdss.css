@@ -1,0 +1,377 @@
+/*Top Div Body Element*/
+.topdiv {
+    top: 120px;
+    left: 0px;
+    height: 170px;
+    background: transparent url('../img/MaskGroup122.png') 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+}
+
+.gradient {
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent linear-gradient(90deg, #1B2F68 0%, #1B2F68CE 20%, #1B2F6877 79%, #1B2F6800 100%) 0% 0% no-repeat padding-box;
+    /* background: transparent url('../img/Mask\ Group\ 122.png') 0% 0% no-repeat padding-box; */
+    opacity: 1;
+}
+
+#rdss {
+    padding-top: 60px;
+    margin-bottom: 0;
+    width: 1370px;
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.homenav {
+    margin-top: 40px;
+    width: 1370px;
+    text-align: left;
+    font: normal normal normal 13px/19px Poppins;
+    font-size: 15px;
+    letter-spacing: 0px;
+
+}
+
+#home_text {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 0.5s ease;
+}
+
+#home_text:hover {
+    color: #cacaca;
+    font-size: 20px;
+}
+
+#greater {
+    color: white;
+    padding-right: 10px;
+}
+
+#rdssnav {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#rdssnav:hover {
+    color: #cacaca;
+    font-size: 20px;
+}
+
+/*Top Div Body Element ends here*/
+
+
+/*Main Body Content*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+/*Sidebar Content*/
+.vbar {
+    margin-top: 80px;
+    margin-right: 80px;
+    width: 300px;
+    height: 579px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 50px #0000001C;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.sidebar_content {
+    text-align: left;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #646464;
+    opacity: 1;
+}
+
+.sidebar_content li {
+    padding: 9px;
+}
+
+.sidebar_content li:hover {
+    background: #FFB433 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+}
+
+/*Sidebar Content ends here*/
+
+/*Service Box Content*/
+.main_content {
+    margin-top: 80px;
+    width: 990px;
+    height: 579px;
+    background: transparent url('../img/Group5306.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.main_row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 289.5px;
+    justify-content: center;
+    color: white;
+}
+
+.serviceip {
+    border-radius: 10px 0px 0px 0px;
+
+}
+
+.serviceev {
+    border-radius: 0px 10px 0px 0px;
+
+}
+
+.servicefu {
+    border-radius: 0px 0px 0px 10px;
+
+}
+
+.servicesc {
+    border-radius: 0px 0px 10px 0px;
+
+}
+
+.service i {
+    padding-bottom: 15px;
+}
+
+.service p {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0px;
+    opacity: 1;
+    background: transparent linear-gradient(90deg, #1b306800 0%, #1b306800 20%, #1b306800 79%, #1B2F6800 100%) 0% 0% no-repeat padding-box;
+}
+
+.service:hover {
+    background-color: #FFB433;
+    color: black;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+/*Service Box Content ends here*/
+
+/*Horizontal & Vertical Divider*/
+.vdiv {
+    top: 374px;
+    left: 1100px;
+    width: 0px;
+    height: 580px;
+    
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+}
+
+.vdiv1 {
+    top: 374px;
+    left: 774px;
+    width: 0px;
+    height: 580px;
+    
+    margin-bottom: 0;
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+}
+
+.hdiv {
+    top: 664px;
+    left: 448px;
+    width: 980px;
+    height: 0px;
+    position: absolute;
+    
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+    margin-bottom: 0;
+}
+
+/*Horizontal & Vertical Divider ends here*/
+
+
+/*Responsiveness*/
+
+@media only screen and (max-width: 768px) {
+
+    /*Top Div Body Element*/
+.topdiv {
+    width: 100%;
+    height: 100px;
+    
+    background: transparent url('../img/MaskGroup122.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rdss {
+    margin-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    width: 708px;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.homenav {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 708px;
+
+    
+    text-align: left;
+    font: normal normal normal 13px/19px Poppins;
+    font-size: 11px;
+    letter-spacing: 0px;
+
+}
+
+#home_text {
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 0.5s ease;
+}
+
+#home_text:hover {
+    color: #cacaca;
+    font-size: 16px;
+}
+
+#greater {
+    color: white;
+    padding-right: 10px;
+}
+
+#rdssnav {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#rdssnav:hover {
+    color: #cacaca;
+    font-size: 16px;
+}
+
+/*Top Div Body Element ends here*/
+
+
+/*Main Body Content*/
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*Sidebar Content*/
+.vbar {
+    margin-top: 0px;
+    margin-right: 40px;
+    width: 200px;
+    height: 400px;
+}
+
+.sidebar_content {
+    font-size: 12px;
+}
+
+.sidebar_content li {
+    padding: 0px;
+}
+
+
+/*Sidebar Content ends here*/
+
+/*Service Box Content*/
+.main_content {
+    margin-top: 0px;
+    width: 468px;
+    height: 400px;
+
+}
+
+.main_row {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 5fr));
+}
+.service {
+    height: 200px;
+}
+
+
+.service i {
+    padding-bottom: 10px;
+}
+
+.service p {
+    font-size: 15px;
+}
+
+
+
+/*Service Box Content ends here*/
+
+/*Horizontal & Vertical Divider*/
+/* .vdiv {
+    top: 374px;
+    left: 1100px;
+    width: 0px;
+    height: 580px;
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+}
+
+.vdiv1 {
+    top: 374px;
+    left: 774px;
+    width: 0px;
+    height: 580px;
+    margin-bottom: 0;
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+}
+
+.hdiv {
+    top: 664px;
+    left: 448px;
+    width: 980px;
+    height: 0px;
+    position: absolute;
+    border: 1px solid #E1E1E1;
+    opacity: 0.1;
+    margin-bottom: 0;
+} */
+}

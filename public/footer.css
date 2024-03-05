@@ -1,0 +1,183 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Top Footer*/
+.topfoot {
+    width: 1370px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.slider{
+    width: 100%;
+    box-shadow: none;
+}
+.sli{
+    justify-content: space-between;
+}
+.logo {
+    cursor: pointer;
+}
+
+
+/*Bottom Footer*/
+.foot{
+    width: 100%;
+    background: #1B2F68 0% 0% no-repeat padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottomfoot {
+    width: 1370px;
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.policy_main {
+    /* margin-top: 10px; */
+    margin-left: 0px;
+    /* UI Properties */
+    text-align: left;
+    font: 12px Poppins;
+    letter-spacing: 0.07px;
+    color: #FFFFFF;
+}
+.policy_main li a{
+    color: #FFFFFF;
+}
+.policy_main li a:hover{
+    color: #fa9c43;
+}
+.policy_main p{
+    margin-left: 8px;
+    margin-bottom: 0rem;
+}
+
+.policy_main div {
+    padding: 0;
+}
+
+
+
+.vrb:before {
+    height: 13px;
+    width: 1px;
+    position: absolute;
+    top: 30%;
+    content: "";
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+#icon,
+#icon1,
+#icon2,
+#icon3 {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+#icon:hover,
+#icon1:hover,
+#icon2:hover,
+#icon3:hover {
+    color: #fa9c43;
+}
+
+.vri:before {
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    top: 35%;
+    content: "";
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.last {
+    height: 43px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+#last_up {
+    height: 20px;
+    /* UI Properties */
+    text-align: right;
+    font: normal normal 300 14px/24px Poppins;
+    letter-spacing: 0.28px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/*Bottom Footer ends here*/
+
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .topfoot {
+        width: 708px;
+
+    }
+    /*Bottom Footer*/
+    .bottomfoot {
+        width: 708px;
+    }
+
+    .bottomfoot ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .policy_main {
+        margin-left: 0px;
+        text-align: left;
+        font: 9px Poppins;
+    }
+    .policy_main p{
+        margin-left: 3px;
+    }
+    .policy_main div ul li a{
+        margin-right: 3px;
+        margin-left: 3px;
+    }
+    
+    .icons{
+        display: none !important;
+
+    }
+    .vrb:before {
+        height: 8px;
+        top: 35%;
+    }
+
+    .last {
+        height: 25px;
+        margin-left: 20px;
+    }
+
+    #last_up {
+        height: 0px;
+        /* UI Properties */
+        text-align:start;
+        font: 9px Poppins;
+    }
+    /*Bottom Footer ends here*/
+}
+
+@media only screen and (min-width: 600px) {
+
+}

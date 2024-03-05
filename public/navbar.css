@@ -1,0 +1,274 @@
+/*1st navabar*/
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home{
+    background: #f8f9fa 0% 0% no-repeat padding-box;
+}
+.top {
+    top: 0px;
+    width: 1370px;
+    height: 30px;
+    background: #f8f9fa 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar {
+    top: 6px;
+    width: 1370px;
+    height: 19px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font: normal normal normal 13px/12px Poppins;
+    letter-spacing: 0.13px;
+}
+.topbar li a{
+    color: rgb(0,0,0,.75);
+}
+.topbar li a:hover{
+    color: rgb(0,0,0,.55);
+}
+.nav1:hover {
+    color: #b85900;
+}
+
+#search {
+    color: #b85900;
+    transition: all 0.5s ease;
+}
+
+#search:hover {
+    color: #0000005e;
+}
+
+#circle1 {
+    color: #000000;
+}
+
+#circle1:hover {
+    color: #0000005e;
+}
+
+#circle2 {
+    color: #000000;
+}
+
+#circle2:hover {
+    color: #0000005e;
+}
+
+.vr:before {
+    height: 16px;
+    width: 1px;
+    margin-top: -9px;
+    position: absolute;
+    top: 50%;
+    content: "";
+    background-color: #A8A8A8;
+    opacity: 1;
+}
+/*1st navbar ends here*/
+
+/*second navbar*/
+
+.toplogos{
+    align-items: center;
+    justify-content: center;
+}
+#power {
+
+    width: 145px;
+    height: 59px;
+    background: transparent url('img/Group4016.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#rec {
+
+    width: 107px;
+    height: 60px;
+    background: transparent url('img/1200px-REC_logo.svg.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#pfc {
+
+    width: 55px;
+    height: 63px;
+    background: transparent url('img/PFCLogo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#home {
+    opacity: 1;
+    transition: all 0.5s ease;
+    color: #b85900;
+}
+
+#home:hover {
+    color: #0000005e;
+
+}
+
+.navtwo {
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.navtwo li a {
+    color: rgb(0,0,0,.75);
+}
+.navtwo li a:hover {
+    color: rgb(0,0,0,.55);
+}
+
+.secondnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1370px;
+}
+
+.nav2 {
+    transition: all 0.5s ease;
+}
+
+.nav2:hover {
+    color: #b85900;
+}
+
+.sign {
+    width: 148px;
+    height: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.sign:hover {
+    background-color: #b8590015;
+    color: white;
+    z-index: 0;
+}
+
+.reg {
+    margin-top: 3px;
+    margin-left: 5px;
+    text-align: center;
+    font: normal normal normal 14px/12px Poppins;
+    letter-spacing: 0px;
+    color: #b85900;
+}
+
+.btn2 {
+    overflow: hidden;
+    border: 2px solid #b85900;
+    transition: 0.5s all ease;
+}
+
+.btn2::before {
+    margin-top: 3px;
+    background: #b85900;
+    content: "";
+    position: absolute;
+    top: 0rem;
+    justify-content: flex-end;
+    right: 21px;
+    border-radius: 5px;
+    transform: translate(20px, 20px);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    width: 0%;
+    height: 35px;
+}
+
+.btn1:hover::before {
+    margin-top: 3px;
+    width: 145px;
+    height: 35px;
+}
+/*second navbar*/
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+
+    /*1st navabar*/
+    .top{
+        display: none;
+        visibility: hidden;
+        height: 0px;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    /*second navbar*/
+    .navtwo {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .navtwo ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navtwo ul li {
+        margin-right: 7px;
+    }
+
+    .sign {
+        width: 100px;
+        height: 20px;
+    }
+    .sign:hover{
+        background-color: #b85900;
+    }
+
+    .reg {
+        margin-top: 7px;
+        font: normal normal normal 10px/12px Poppins;
+    }
+
+
+    .btn1:hover::before {
+        margin-top: 60px;
+        width: 97px;
+        height: 20px;
+    }
+    .secondnav {
+        display: block;
+    }
+    #power {
+        width: 90px;
+        height: 40px;
+        background-size: 90%;
+        margin-right: 0px;
+    }
+    
+    #rec {        
+        width: 90px;
+        height: 40px;
+        background-size: 80%;
+        margin-right: 0px;
+    }
+    
+    #pfc {
+        width: 70px;
+        height: 65px;
+        background-size: 70%;
+        margin-right: 0px;
+    }
+    /*second navbar ends here*/
+}
